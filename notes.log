@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.9)  20 SEP 2019 10:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.9)  20 SEP 2019 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -243,24 +243,29 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 12.
- [1
 
-{/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (.
-/notes.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 18--18
+[]\OT1/cmr/bx/n/12 Storage Area Net-work
+ []
+
+[1
+
+{/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./notes.aux) ) 
 Here is how much of TeX's memory you used:
  2055 strings out of 494060
  30502 string characters out of 6163036
- 102147 words of memory out of 5000000
+ 99147 words of memory out of 5000000
  5756 multiletter control sequences out of 15000+600000
  5413 words of font info for 20 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,5n,32p,723b,165s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbsy10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb>
-Output written on notes.pdf (1 page, 46979 bytes).
+ 41i,5n,32p,723b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbsy10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb>
+Output written on notes.pdf (1 page, 49569 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream
