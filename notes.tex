@@ -3,22 +3,74 @@
 \usepackage{lscape}
 \usepackage[margin=0.5cm, landscape]{geometry}
 \usepackage{multicol}
+\usepackage{amsmath}
 
 
 
 \begin{document}
 \thispagestyle{empty}
 \noindent
-  \textbf{Architetture ICT complesse 2019/2020 ©}
+  \textbf{Architetture ICT complesse (Information and Comunication Technology) 2019/2020 ©}
 \begin{multicols*}{4}
-   \section{Introduzione}
-   \subsection{nome capitolo}
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis donec et odio pellentesque diam. Scelerisque eleifend donec pretium vulputate sapien nec. Amet cursus sit amet dictum sit. Magna etiam tempor orci eu lobortis elementum. Placerat vestibulum lectus mauris ultrices. Tempus urna et pharetra pharetra massa massa ultricies. Ornare suspendisse sed nisi lacus sed viverra tellus in hac. Molestie nunc non blandit massa enim nec dui nunc mattis. Posuere urna nec tincidunt praesent semper feugiat nibh sed. Odio tempor orci dapibus ultrices in iaculis nunc. Pharetra pharetra massa massa ultricies. Quisque egestas diam in arcu cursus.
-\section{Storage}
-\subsection{Storage Area Network (SAN)}	
-\subsection{iSCSI}	
-\subsection{Infiband}	
+	 \section{Storage architectures, technologies and systems}
+	    \subsection{Evoluzione}
+	    \subsubsection{Fattori legati al Business}
+		I dati sono sono importanti per le aziende moderne e bisogna proteggerli per non perderli e garantire sempre il loro accesso. Bisogna gestire le situazioni critiche mettendo i dati in un posto sicuro, garantendo la continuità al business. I costi per la manutenzione degli storage sono maggiori degli acquisti e c'é bisogno di semplificare l'architettura.
+\\Le infrastrutture devono essere: \textbf{efficienti}, \textbf{affidabili}, \textbf{scalabili}, \textbf{gestibile}, \textbf{basate su standard} e \textbf{ragionevolmente economico}.
+		\subsubsection{Fattori tecnici}
+		Le ultime tecnologie sviluppate hanno permesso di sviluppare nuove applicazioni (internet, multimedia, BI, ...). Di conseguenza c'é stata una maggiore richiesta di: \textbf{capacità d'archiviazione, performance, affidabilità}.
+		\subsubsection{Insidie degli approci tradizionali}
+		Alla fine del '97 la velocità del network supera quello dello storage. Gli approci tradizionali hanno diversi svantaggi quali: "\textbf{attaccati direttamente al server, bus parallelo SCSI usato come interconessione,  accessi diretti al server, se il server è inattivo l'archiviazione non è accessibile, numero di dischi per controller è limitato in un server, ...}. Questo approcio non è una buona architettura per la scalabilità! 
+		\subsubsection{Cambio di paradigma}
+		Per risolvere il problema delle reti veloci che mettono sotto pressione i server, che generano un overload delle richieste, si è dovuto cambiare dallo \textbf{storage collegato direttamente a quello condiviso}, con il seguente schema:
+		\begin{itemize}
+			\item L'archiviazione può essere accessibile da più server
+			\item Il carico di lavoro può essere distribuito su più server
+			\item Gli storage possono essere spostati spostati da un server all'altro
+			\item Gestione centralizzata dello storage aziendale 
+		\end{itemize}
+		
+		\subsubsection{Crescita dei dati}
+		Con la nascita degli IoT la quantità di dati sono esplosi, proprio perché lavorano 24/24, rispetto all'interazione dell'uomo con il device (videocamere, sensori, ecc...). Questa crescita ha umentato drasticamente i costi del IT con: più capacità di storage (e costi), grandi backup, ecc... \\ ILM (Information Lifecycle Management) permette le strategie per l'amministrazione di sistemi di archiviazione su dispositivi informatici.
+		\subsubsection{Aspetti legali}
+	 	Regole nazionali e internazionali impongono alle aziende delle regole per l'archiviazione, la conservazione e la sicurezza dei dati. La conformità è quindi un problema che influisce sul ICT e ILM è un modo per supportarla.
+	 	
+	 	\subsection{Storage}
+	 	Uno storage system è una tecnologia designata e usata per la conservazione dei dati digitali. Ci sono 4 gerarchie di storage systems:
+	 	\begin{itemize}
+	 		\item \textbf{Primario} - Accesso diretto dalla CPU (RAM, ROM, cache)
+	 		\item \textbf{Secondario} - Non diretto dalla CPU (HDD, SSD)
+	 		\item \textbf{Terziario} (nearline) - Uso di robot per caricare/scaricare in un drive
+	 		\item \textbf{Off-line} - Supporti d'archiviazione mantenuti offline e richiede l'intervento umano per caricare/scaricare in un drive
+	 	\end{itemize}
+	 	Parametri per la differenziazione dei livelli di gerarchia: performance, mutability, latency, addressability, capacity, security, energy use, cost per capacity.
+	 	\subsubsection{Tipi di storage}
+	 		\begin{itemize}
+	 			\item \textbf{Blocchi} - Su dichi e memorie (tracce e settori)
+	 			\item \textbf{File} - Cartella in ordine logico fisso (file path, file name, Date)
+	 			\item \textbf{Oggetti}  - Container di dimensione flessibile (UID, Data e metadati)
+	 		\end{itemize}
+	 		\subsubsection{Storage a blocchi}
+	 		I dati sono salvati in blocchi di dimensione fissa, senza nessun metadato di alto livello. Accessibile da OS con un "mount" e tramite un file system si decide come i blocchi sono accessibili, combinati e modificabili. L'applicazione scrive sui data block, ideale per l'archiviazione primaria ad alte prestazioni. Casi d'uso: strutture DB, volumi virtuali, Workloads, High change content, Random R/W e Bursty I/O.\\
+	 		\textbf{Accesso ai dati:} Applicazione scrive blocchi $\to$ Inietor SW/HW $\to$ Controller $\to$ dati scritti sul device come data block.
 
+	 		\subsubsection{File storage}
+	 		I file sono accessibili in modo casuale, chiamati con operazioni IO attraverso un manipolatore, vengono organizzati in directory (file strutturati) e possono avere diversi livelli (anche combinati): \textbf{file system logici, virtuali, fisici e accesso di rete}. Hanno supporto POSIX e possono essere trattati attraverso dati non strutturati (stream o oggetti), dati strutturati e blocchi.
+	 		
+	 		\subsubsection{Storage ad oggetti}
+	 		Contiene tipicamente le reposity, URL, metadati, ObjectID e versioni. I casi d'uso sono: \textbf{per i cloud pubblici/privati/ibirdi, archiviazione, archiviazione senza server, IoT, machine learning,  ecc...}. Non richiede un "mount" per accedere ai dati e sono accessibili da qualsiasi endpoint.
+		\subsection{Storage Area Network (SAN)}
+		\subsection{iSCSI}	
+		\subsection{Infiband}	
+	
+
+	\section{High-end systems and RAS (Reliability, Availability e Serviceability)}
+	
+	\section{Clustering for high performance computing and high-availability}
+	
+	\section{Virtualization}
+	
+	\section{Cloud}
 \end{multicols*}
 \end{document}
 

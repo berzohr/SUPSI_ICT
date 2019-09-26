@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.9)  20 SEP 2019 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.9)  26 SEP 2019 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -124,6 +124,64 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \colbreak@box=\box52
 \mc@col@check@num=\count99
 )
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen122
+))
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen123
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count100
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count101
+\leftroot@=\count102
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count103
+\DOTSCASE@=\count104
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen124
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count105
+\c@MaxMatrixCols=\count106
+\dotsspace@=\muskip10
+\c@parentequation=\count107
+\dspbrk@lvl=\count108
+\tag@help=\toks17
+\row@=\count109
+\column@=\count110
+\maxfields@=\count111
+\andhelp@=\toks18
+\eqnshift@=\dimen125
+\alignsep@=\dimen126
+\tagshift@=\dimen127
+\tagwidth@=\dimen128
+\totwidth@=\dimen129
+\lineht@=\dimen130
+\@envbody=\toks19
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
 
 LaTeX Warning: Unused global option(s):
     [8pt].
@@ -131,32 +189,32 @@ LaTeX Warning: Unused global option(s):
 (./notes.aux)
 \openout1 = `notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 (/usr/local/texlive/2019basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen122
-\scratchbox=\box53
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen123
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count112
+\scratchdimen=\dimen131
+\scratchbox=\box55
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen132
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -237,15 +295,42 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 12.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 13.
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]\OT1/cmr/bx/n/14.4 Storage ar-chi-tec-tures,
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 15--15
+\OT1/cmr/bx/n/14.4 tech-nolo-gies and sys-
+ []
+
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
+
+Underfull \hbox (badness 6691) in paragraph at lines 61--62
+\OT1/cmr/bx/n/10 per i cloud pub-blici/privati/ibirdi,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+\OT1/cmr/bx/n/10 archivi-azione, archivi-azione senza
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []\OT1/cmr/bx/n/12 Storage Area Net-work
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\OT1/cmr/bx/n/14.4 for-mance com-put-ing
  []
 
 [1
@@ -253,22 +338,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--18
 {/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 (./notes.aux) ) 
 Here is how much of TeX's memory you used:
- 2055 strings out of 494060
- 30502 string characters out of 6163036
- 99147 words of memory out of 5000000
- 5756 multiletter control sequences out of 15000+600000
- 5413 words of font info for 20 fonts, out of 8000000 for 9000
+ 2673 strings out of 494060
+ 37630 string characters out of 6163036
+ 118613 words of memory out of 5000000
+ 6357 multiletter control sequences out of 15000+600000
+ 5867 words of font info for 22 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,5n,32p,723b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,5n,32p,467b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmbsy10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb>
-Output written on notes.pdf (1 page, 49569 bytes).
+1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on notes.pdf (1 page, 75481 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
