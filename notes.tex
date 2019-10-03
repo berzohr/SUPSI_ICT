@@ -154,7 +154,9 @@ Il contenuto di un volume può essere clonato su un'unità remota senza l'interv
 È possibile aumentare le prestazioni con svariate tecniche con l'utilizzo di cache. A dipendenza della tecnica utilizzata, per esempio DRAM, si ha una diminuzione di latenza sul I/O di quasi 10 volte, ma richiede SSD di tipo SLC, perciò molto più cari. Richiede un UPS o un sistema di diagnostica interna per garantire la persistenza dei dati in caso di mancanza di corrente.
 
 \subsubsection{Object-Based Storage}
-Utilizzato soprattutto nel cloud, poiché permette di definire oggetti e questo facilità l’utilizzo alle applicazioni. Caratterizzati da dati non strutturati, dati embedded, Dati immutable, Dati di cui non si conosce la posizione e nessuna gestione dei Volume. SCALABILITA’, DURABILITA’, MANEGGEVOLE E CONSISTENZA.
+Utilizzato soprattutto nel cloud, poiché permette di definire oggetti e questo facilità l’utilizzo alle applicazioni. Caratterizzati da dati non strutturati dati embedded e dati immutable, Dati di cui non si conosce la posizione e nessuna gestione dei Volume. Scalabilità, sicurezza, durabilità, consistenza e cross-platform. Si concentra sulla gestione dei dati per tipo a discapito della loro posizione. Sono visualizzati come unico spazio, indipendente dai nodi, garantisce eventual-consistency (garantita consistenza finale) e permette policy più sofisticate es: dati nuovi su tutti i dischi, dati di 3 anni in archivio e quelli di 10 vengono cancellati. \\
+L'oggetto contiene dati, metadati e un UID indicizzato.
+
 \subsubsection{Software aggiuntivo}
 Sebbene queste tecnologie sono trasparenti, è possibile utilizzando software aggiuntivo avere funzioni più avanzate come: backup più veloce e consistente, deduplicazione, spindown, disaster recovery, remote mirroring e configurazioni più flessibili (data tiering).
 \end{multicols*}
