@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.9)  26 SEP 2019 23:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.9.9)  3 OCT 2019 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **notes.tex
 (./notes.tex
 LaTeX2e <2018-12-01>
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
-(/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
 )
 \c@part=\count80
 \c@section=\count81
@@ -20,7 +29,7 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
-\bibindent=\dimen102
+\bibindent=\dimen103
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -43,8 +52,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
@@ -65,35 +74,35 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count88
 \Gm@cntv=\count89
 \c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen105
-\Gm@wd@mp=\dimen106
-\Gm@odd@mp=\dimen107
-\Gm@even@mp=\dimen108
-\Gm@layoutwidth=\dimen109
-\Gm@layoutheight=\dimen110
-\Gm@layouthoffset=\dimen111
-\Gm@layoutvoffset=\dimen112
+\Gm@bindingoffset=\dimen106
+\Gm@wd@mp=\dimen107
+\Gm@odd@mp=\dimen108
+\Gm@even@mp=\dimen109
+\Gm@layoutwidth=\dimen110
+\Gm@layoutheight=\dimen111
+\Gm@layouthoffset=\dimen112
+\Gm@layoutvoffset=\dimen113
 \Gm@dimlist=\toks15
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \c@tracingmulticols=\count91
 \mult@box=\box27
-\multicol@leftmargin=\dimen113
+\multicol@leftmargin=\dimen114
 \c@unbalance=\count92
 \c@collectmore=\count93
 \doublecol@number=\count94
 \multicoltolerance=\count95
 \multicolpretolerance=\count96
-\full@width=\dimen114
-\page@free=\dimen115
-\premulticols=\dimen116
-\postmulticols=\dimen117
+\full@width=\dimen115
+\page@free=\dimen116
+\premulticols=\dimen117
+\postmulticols=\dimen118
 \multicolsep=\skip43
 \multicolbaselineskip=\skip44
 \partial@page=\box28
 \last@line=\box29
-\maxbalancingoverflow=\dimen118
+\maxbalancingoverflow=\dimen119
 \mult@rightbox=\box30
 \mult@grightbox=\box31
 \mult@gfirstbox=\box32
@@ -117,9 +126,9 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box50
 \c@columnbadness=\count97
 \c@finalcolumnbadness=\count98
-\last@try=\dimen119
-\multicolovershoot=\dimen120
-\multicolundershoot=\dimen121
+\last@try=\dimen120
+\multicolovershoot=\dimen121
+\multicolundershoot=\dimen122
 \mult@nat@firstbox=\box51
 \colbreak@box=\box52
 \mc@col@check@num=\count99
@@ -135,11 +144,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
-\ex@=\dimen122
+\ex@=\dimen123
 ))
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen123
+\pmbraise@=\dimen124
 )
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -156,7 +165,7 @@ LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box53
 \strutbox@=\box54
-\big@size=\dimen124
+\big@size=\dimen125
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count105
@@ -169,12 +178,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \column@=\count110
 \maxfields@=\count111
 \andhelp@=\toks18
-\eqnshift@=\dimen125
-\alignsep@=\dimen126
-\tagshift@=\dimen127
-\tagwidth@=\dimen128
-\totwidth@=\dimen129
-\lineht@=\dimen130
+\eqnshift@=\dimen126
+\alignsep@=\dimen127
+\tagshift@=\dimen128
+\tagwidth@=\dimen129
+\totwidth@=\dimen130
+\lineht@=\dimen131
 \@envbody=\toks19
 \multlinegap=\skip46
 \multlinetaggap=\skip47
@@ -182,10 +191,6 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-
-LaTeX Warning: Unused global option(s):
-    [8pt].
-
 (./notes.aux)
 \openout1 = `notes.aux'.
 
@@ -205,13 +210,13 @@ LaTeX Font Info:    ... okay on input line 10.
 (/usr/local/texlive/2019basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
-\scratchdimen=\dimen131
+\scratchdimen=\dimen132
 \scratchbox=\box55
 \nofMPsegments=\count113
 \nofMParguments=\count114
 \everyMPshowfont=\toks21
 \MPscratchCnt=\count115
-\MPscratchDim=\dimen132
+\MPscratchDim=\dimen133
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks22
@@ -280,12 +285,12 @@ e
 * \topmargin=-95.04362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=9.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -299,62 +304,85 @@ LaTeX Font Info:    Try loading font information for OMS+cmr on input line 13.
 (/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 13.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
-[]\OT1/cmr/bx/n/14.4 Storage ar-chi-tec-tures,
- []
-
-
-Underfull \hbox (badness 8151) in paragraph at lines 15--15
-\OT1/cmr/bx/n/14.4 tech-nolo-gies and sys-
- []
-
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
 
-Underfull \hbox (badness 6691) in paragraph at lines 61--62
-\OT1/cmr/bx/n/10 per i cloud pub-blici/privati/ibirdi,
- []
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-\OT1/cmr/bx/n/10 archivi-azione, archivi-azione senza
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]\OT1/cmr/bx/n/12 Storage Area Net-work
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-\OT1/cmr/bx/n/14.4 for-mance com-put-ing
  []
 
 [1
 
 {/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./notes.aux) ) 
+<src/JBOD.png, id=11, 301.125pt x 301.125pt>
+File: src/JBOD.png Graphic file (type png)
+<use src/JBOD.png>
+Package pdftex.def Info: src/JBOD.png  used on input line 92.
+(pdftex.def)             Requested size: 78.6582pt x 78.65823pt.
+<src/raid0.png, id=13, 244.66406pt x 376.40625pt>
+File: src/raid0.png Graphic file (type png)
+<use src/raid0.png>
+Package pdftex.def Info: src/raid0.png  used on input line 105.
+(pdftex.def)             Requested size: 58.99515pt x 90.7586pt.
+<src/raid1.png, id=14, 244.66406pt x 376.40625pt>
+File: src/raid1.png Graphic file (type png)
+<use src/raid1.png>
+Package pdftex.def Info: src/raid1.png  used on input line 109.
+(pdftex.def)             Requested size: 58.99515pt x 90.7586pt.
+<src/raid3.png, id=15, 2007.5pt x 1486.55376pt>
+File: src/raid3.png Graphic file (type png)
+<use src/raid3.png>
+Package pdftex.def Info: src/raid3.png  used on input line 113.
+(pdftex.def)             Requested size: 98.32426pt x 72.7896pt.
+<src/raid4.png, id=16, 602.25pt x 445.665pt>
+File: src/raid4.png Graphic file (type png)
+<use src/raid4.png>
+Package pdftex.def Info: src/raid4.png  used on input line 117.
+(pdftex.def)             Requested size: 98.32426pt x 72.75632pt.
+<src/raid5.png, id=17, 677.53125pt x 501.875pt>
+File: src/raid5.png Graphic file (type png)
+<use src/raid5.png>
+Package pdftex.def Info: src/raid5.png  used on input line 121.
+(pdftex.def)             Requested size: 98.32426pt x 72.82744pt.
+<src/raid6.png, id=18, 1284.8pt x 755.82375pt>
+File: src/raid6.png Graphic file (type png)
+<use src/raid6.png>
+Package pdftex.def Info: src/raid6.png  used on input line 125.
+(pdftex.def)             Requested size: 98.32426pt x 57.83762pt.
+<src/raid10.png, id=19, 602.25pt x 602.25pt>
+File: src/raid10.png Graphic file (type png)
+<use src/raid10.png>
+Package pdftex.def Info: src/raid10.png  used on input line 129.
+(pdftex.def)             Requested size: 98.32426pt x 98.31934pt.
+<src/replication.png, id=20, 826.08624pt x 362.35374pt>
+File: src/replication.png Graphic file (type png)
+<use src/replication.png>
+Package pdftex.def Info: src/replication.png  used on input line 150.
+(pdftex.def)             Requested size: 157.31941pt x 69.00273pt.
+
+[2 <./src/JBOD.png> <./src/raid0.png> <./src/raid1.png> <./src/raid3.png> <./sr
+c/raid4.png> <./src/raid5.png> <./src/raid6.png> <./src/raid10.png> <./src/repl
+ication.png>] [3] (./notes.aux) ) 
 Here is how much of TeX's memory you used:
- 2673 strings out of 494060
- 37630 string characters out of 6163036
- 118613 words of memory out of 5000000
- 6357 multiletter control sequences out of 15000+600000
- 5867 words of font info for 22 fonts, out of 8000000 for 9000
+ 2764 strings out of 494060
+ 40715 string characters out of 6163036
+ 126791 words of memory out of 5000000
+ 6427 multiletter control sequences out of 15000+600000
+ 7621 words of font info for 28 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 41i,5n,32p,467b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbsy10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb>
-Output written on notes.pdf (1 page, 75481 bytes).
+ 41i,5n,32p,924b,298s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019basic/texmf-dist/fonts
+/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/local/texlive/2019basic/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019basic/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2019basic/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019basi
+c/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on notes.pdf (3 pages, 575039 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
